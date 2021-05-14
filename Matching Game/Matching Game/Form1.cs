@@ -25,7 +25,7 @@ namespace Matching_Game
         Properties.Resources.deer, Properties.Resources.deer,
         Properties.Resources.dog, Properties.Resources.dog,
         Properties.Resources.flower, Properties.Resources.flower,
-        Properties.Resources.fox, Properties.Resources.fox,
+        Properties.Resources.night, Properties.Resources.night,
         Properties.Resources.strawberry, Properties.Resources.strawberry,
         Properties.Resources.strawberry2, Properties.Resources.strawberry2
     };
@@ -76,7 +76,7 @@ namespace Matching_Game
                 secondClicked = clickedPictureBox;
                 secondClicked.Image = clickedPictureBox.BackgroundImage;
 
-                if (firstClicked.Image == secondClicked.Image)
+                if (firstClicked.BackgroundImage == secondClicked.BackgroundImage)
                 {
                     firstClicked = null;
                     secondClicked = null;
