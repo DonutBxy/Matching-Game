@@ -8,3 +8,13 @@ C:\Users\John\Desktop\Matching Game\Matching Game\Matching Game\obj\Debug\Matchi
 C:\Users\John\Desktop\Matching Game\Matching Game\Matching Game\obj\Debug\Matching Game.csproj.CoreCompileInputs.cache
 C:\Users\John\Desktop\Matching Game\Matching Game\Matching Game\obj\Debug\Matching Game.exe
 C:\Users\John\Desktop\Matching Game\Matching Game\Matching Game\obj\Debug\Matching Game.pdb
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\bin\Debug\Matching Game.exe.config
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\bin\Debug\Matching Game.exe
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\bin\Debug\Matching Game.pdb
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching Game.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching_Game.Form1.resources
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching_Game.Properties.Resources.resources
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching Game.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching Game.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching Game.exe
+C:\Users\Administrator\source\repos\DonutBxy\Matching-Game\Matching Game\Matching Game\obj\Debug\Matching Game.pdb

@@ -18,6 +18,14 @@ namespace Matching_Game
 
         PictureBox secondClicked = null;
 
+        List<string> iconNames = new List<string>()
+        {
+            "Bell", "Bell", "Cookie", "Cookie",
+            "Deer","Deer","Dog","Dog",
+            "Flower","Flower","Night","Night",
+            "Strawberry","Strawberry","Strawberry2","Strawberry2"
+        };
+
         List<Image> icons = new List<Image>()
     {
         Properties.Resources.bell, Properties.Resources.bell,
@@ -40,7 +48,9 @@ namespace Matching_Game
                     int randomNumber = random.Next(icons.Count);
                     iconPictureBox.BackgroundImage = icons[randomNumber];
                     iconPictureBox.Image = Properties.Resources.sky;
+                    iconPictureBox.Tag = iconNames[randomNumber];
                     icons.RemoveAt(randomNumber);
+                    iconNames.RemoveAt(randomNumber);
                 }
             }
         }
@@ -76,7 +86,8 @@ namespace Matching_Game
                 secondClicked = clickedPictureBox;
                 secondClicked.Image = clickedPictureBox.BackgroundImage;
 
-                if (firstClicked.BackgroundImage == secondClicked.BackgroundImage)
+
+                if (firstClicked.Tag == secondClicked.Tag)
                 {
                     firstClicked = null;
                     secondClicked = null;
@@ -99,5 +110,6 @@ namespace Matching_Game
             firstClicked = null;
             secondClicked = null;
         }
+
     }
 }
